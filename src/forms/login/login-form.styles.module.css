@@ -1,0 +1,19 @@
+.form {
+   @apply bg-gray-100 text-black max-w-md w-[95vw] transition-shadow duration-300 ease-in-out rounded-lg overflow-hidden p-5 gap-2 flex flex-col;
+}
+
+.formField {
+   @apply mb-4;
+}
+
+.formLabel {
+   @apply block text-sm font-semibold text-gray-700;
+}
+
+.formMessage {
+   @apply text-red-500 text-xs;
+}
+
+.box {
+   @apply flex items-center justify-between;
+}

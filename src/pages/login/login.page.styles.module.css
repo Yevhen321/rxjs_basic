@@ -1,0 +1,3 @@
+.box {
+   @apply items-center justify-center h-screen;
+}

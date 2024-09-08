@@ -1,0 +1,23 @@
+.card {
+   @apply bg-white shadow-md rounded-lg p-6 border border-gray-200 flex-col min-w-[260px] max-w-[260px] justify-between relative;
+}
+
+.title {
+   @apply text-lg font-bold text-gray-900 mb-2;
+}
+
+.status {
+   @apply text-sm font-semibold items-center justify-between;
+}
+
+.completed {
+   @apply text-green-500;
+}
+
+.incomplete {
+   @apply text-red-500;
+}
+
+.deleteIcon {
+   @apply absolute top-3 w-5 h-5 cursor-pointer rounded-[50%] right-3 hover:bg-slate-400;
+}

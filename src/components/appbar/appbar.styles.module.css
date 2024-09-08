@@ -1,0 +1,19 @@
+.appbar {
+   @apply bg-gray-800 text-white p-4;
+}
+
+.navList {
+   @apply flex justify-between items-center;
+}
+
+.navLink {
+   @apply text-lg font-semibold text-white hover:text-gray-300 transition-colors;
+}
+
+.linksBox {
+   @apply flex items-center flex-row gap-4;
+}
+
+.activeNavLink {
+   @apply text-blue-500;
+}

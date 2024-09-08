@@ -1,0 +1,11 @@
+.mainBox {
+   @apply h-full flex flex-col gap-4;
+}
+
+.todosBox {
+   @apply flex flex-wrap gap-4;
+}
+
+.actionsBox {
+   @apply flex flex-col gap-2;
+}
